@@ -165,7 +165,7 @@ var sketchFooter = function(p){
   p.setup = function(){
     var cnv = p.createCanvas(400,100);
     cnv.position(0,400);
-    p.font = p.loadFont("../assets/FUZZXL__.TTF");
+    p.font = p.loadFont("assets/FUZZXL__.TTF");
   }
 
   p.draw = function(){
