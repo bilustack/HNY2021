@@ -8,10 +8,30 @@ body {
   src: url("../assets/FUZZXL__.TTF");
 }
 
-#header{
+header{
+  margin-top: 10px;
+  margin-left: 5px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color:deepskyblue;
+  background-color:floralwhite;
+}
+
+#reference{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#dev-name{
+  padding-left: 15px;
+  font-family: "fastiv";
+  font-size: 25px;
+}
+
+#header-content{
   font-family: "fastiv";
   font-size: 31px;
-  color: aliceblue;
+  color:gold;
   width: 100%;
   height: 100px;
   padding-top: 10px;
