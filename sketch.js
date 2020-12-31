@@ -8,12 +8,12 @@ function preload(){
 }
 
 
-let header;
+let footer;
 function setup() {
   var cnv = createCanvas(windowWidth, 500)
   cnv.position(0,120);
-  header = createGraphics(windowWidth, 450)
-  //footer = createGraphics(windowWidth, 100)
+  footer = createGraphics(windowWidth, 450)
+  
  
   input = createInput();
   input.size(230,30);
@@ -60,11 +60,11 @@ function greet(){
 
 function draw() {
   background(0);
-  header.textFont(font1);
-  header.textSize(30);
-  header.fill(255);
-  header.text("      2021      ",0,30);
-  image(header, 0, 400, windowWidth, 500)
+  footer.textFont(font1);
+  footer.textSize(30);
+  footer.fill(255, 215, 0);
+  footer.text("      2021      ",0,30);
+  image(footer, 0, 400, windowWidth, 500)
 
   for( var i=0;i<vehicles.length;i++ ){
     var v = vehicles[i];
@@ -75,8 +75,3 @@ function draw() {
 
   
 }
-
-
-//var Header = new p5(sketchHeader);
-//var Body = new p5(sketchBody);
-//var Footer = new p5(sketchFooter);
