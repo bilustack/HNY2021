@@ -30,7 +30,7 @@ class Vehicle {
     }
     show() {
         stroke("#F65058FF");
-        strokeWeight(2);
+        strokeWeight(4);
         point(this.pos.x, this.pos.y);
     }
     arrive() {
