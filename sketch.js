@@ -54,7 +54,7 @@ function greet(){
   button.remove();
   
   var chText = document.getElementById("change-text");
-  chText.innerHTML = "Now Touch or Hover on Name";
+  chText.innerHTML = "Now Touch on Name";
   
 }
 
