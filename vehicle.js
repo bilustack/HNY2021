@@ -29,7 +29,7 @@ class Vehicle {
         this.acc.mult(0);
     }
     show() {
-        stroke(255);
+        stroke("#F65058FF");
         strokeWeight(2);
         point(this.pos.x, this.pos.y);
     }
